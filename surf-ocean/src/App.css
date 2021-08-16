@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#myfirstform {
+  border-radius: 50px;
+  border: 10px solid #d3d3d3;
+  padding: 1px 10px 20px 20px;
+  width: 100%;
+  height: 50%;
+  
+}
+.mb-2{
+  float:left
+}
+.site-nav-desktop-logo{
+  float:right;
+}
+
+.shivmenu {
+  overflow: hidden;
+  background-color:white;
+  padding: 1px 1px; 
+}
+
+.shivimg{
+  float:right;
+}
+.dribble{
+  float:left
+}
+
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.sign{
+  color:pink;
+}
+
+.button1{
+  background-color:violet;
+  color:white;
+  padding:8px 10px;
+  border-radius: 7px;
+}
+
+.foot{
+  color:black;
+  float: left;
+  font-size: 17px;
+}
+.footimg{
+  float:left;
+}
+
+.box{
+    box-sizing: border-box;
+}
+
+.content{
+  text-align: left;
+  margin-top: 30px;
+  font-size: 30px;
+  color:black;
+}
+.newcontent{
+  color: black;
+  font-size:20px;
+}
+.signin{
+  font-size: 18px;
+  padding:5px;
+  vertical-align:top;
+  text-align: top;
+  text-indent: 1.5cm;
+  color: grey;
+  
+  
+}
+.options{
+  float:left;
+  background-color: white;
+  color:black;
+  font-size: 15px;
+  padding:10px;
+}
+
+.shivmenu a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.shivmenu a:hover {
+  background-color:white;
+  color:pink;
+}
+
+.shivmenu a.menus {
+  background-color:white;
+  color:black;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.newmenu a {
+  float: left;
+  color:grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.newmenu a:hover {
+  background-color:white;
+  color:black;
+}
+
+.newmenu a.newmenus {
+  background-color:white;
+  color:black;
+}
+
+
+.App-header {
+  background-color: white;
+  min-height: 10vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: red;
+  margin-top: 5px;
+}
+.insta{
+  float:left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.twitter{
+  float: left;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
